@@ -1,0 +1,21 @@
+/* Custom styles for Jupyter Notebook Markdown cells */
+div.jp-MarkdownCell .rendered_html {
+    color: #FFFFFF !important; /* General text color */
+}
+
+div.jp-MarkdownCell .rendered_html h1,
+div.jp-MarkdownCell .rendered_html h2,
+div.jp-MarkdownCell .rendered_html h3,
+div.jp-MarkdownCell .rendered_html h4,
+div.jp-MarkdownCell .rendered_html h5,
+div.jp-MarkdownCell .rendered_html h6 {
+    color: #FFFF00 !important; /* Headings color */
+}
+
+div.jp-MarkdownCell .rendered_html strong {
+    color: #FFD700 !important; /* Bold text color */
+}
+
+div.jp-MarkdownCell .rendered_html em {
+    color: #FF69B4 !important; /* Italic text color */
+}
